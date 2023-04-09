@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We made a variable called number and set it to 1.
+// We incremented the number 1 to 2.
+// We checked if number is greater or equal to 2. 
+// We console.log 'yes'.
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We made a variable called name and assigned it to Dane.
+// We check if the name was the same with exact match only.
+// If the name was an ecact match we made it console.log 'Hi, Mary'
+//If the name didn't match we made it console.log 'How do you do?'
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We created a switch statement and made a vairable called secret.
+// We made a varaible called code and gave it a value of 123.
+// We created a conditional and checked if code was an exact match of 123 and if it was we would make a new variable called secret and set it to super. If the conditional was true we also made it multiply the value of the variable code by 2.
+// We console.log 'super' because code was less than 250. 
 
 //CODE
 /*
@@ -92,7 +92,7 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
-
+ // 
 
 
 
