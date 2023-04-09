@@ -92,11 +92,15 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
- // 
+ // We made a variable called isStudent and set its value to a boolean which is true. 
+ // We made a varibale called age and set it to a value of 34.
+ // We made a variable called zip and set it to a value of 55407.
+ // We now used compound conditionals. We checked if isStudent was an exact match of true and if zip was greater than 80000. It wouldnt work because the value of zip was not greater than 80000. 
+ // We used the else if statement to now check if isStudent is an exact match of our boolean and age is less than 30. We used || to check if either of the statements would be a match to our values. It was not a match to our variables so our console.log wouldnt work. 
+ // we now said if isStudent was an exact match of our boolean that we should console.log 'Welcome to Prime!'. It worked and our console.log was displayed.
+ // Our last console.log will not be executed because our previous statement was true and got executed. It would only be executed if our previous statement was false. 
 
-
-
-// REVERSE
+ // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
 // Some of the code will NOT match the description.
 // Comment above the problem code, and describe a potential solution.
@@ -138,6 +142,11 @@ if (mix === true) {
   colorOne = 'purple';
 }
 */
+// The statement abobe is correct but the instructions asked to also change the the variable colorTwo. The coorect way to do it is below.
+// if (mix === true){
+//  colorOne = 'Purple'
+//  colorTwo = 'Purple'
+//}
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -151,6 +160,13 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+// We used const so time can't be greater than 4. Correct way to write this code is. We also will change || to && so that both sides must be true. 
+
+// let temp = 40;
+// const time = 4;
+// if (temp > 39 && time = 4){
+// console.log('throw away the food!');
+//}
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -166,4 +182,15 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
+// The code looks good but the greater than sign is not correct. We will do that change and the code should be good. 
+
+// let age = 21;
+// const minAge = 21;
+// if(minAge >= age) {
+// console.log('no entry'); 
+//} else {
+// console.log('enter');
+// }
+
+
 
